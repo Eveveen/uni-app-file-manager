@@ -193,7 +193,7 @@
 				}
 				this.getCheckedFiles()
 			},
-			showLoading = () => {
+			showLoading(){
 				uni.showLoading({
 					title: '加载中...'
 				})
